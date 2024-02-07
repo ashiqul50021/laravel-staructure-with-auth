@@ -381,7 +381,9 @@
 
                                             <span class="ms-2">Settings </span>
                                         </a>
-                                        <a href="page-login.html" class="dropdown-item ai-icon">
+                                        <a href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                                      document.getElementById('logout-form').submit();" class="dropdown-item ai-icon">
                                             <svg class="profle-logout" xmlns="http://www.w3.org/2000/svg"
                                                 width="18" height="18" viewBox="0 0 24 24"
                                                 fill="none" stroke="#ff7979" stroke-width="2"
@@ -393,6 +395,10 @@
                                             </svg>
                                             <span class="ms-2 text-danger">Logout </span>
                                         </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                            @csrf
+                                        </form>
                                     </div>
                                 </div>
 

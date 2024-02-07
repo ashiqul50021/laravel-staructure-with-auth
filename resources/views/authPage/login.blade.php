@@ -85,7 +85,7 @@
 					<div class="pages-left h-100">
 						<
 						<div class="login-media text-center">
-							<img src="{{asset('admin/images/login.png')}}" alt="">
+							<img src="images/login.png" alt="">
 						</div>
 					</div>
                 </div>

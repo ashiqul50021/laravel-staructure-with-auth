@@ -32,11 +32,11 @@
                                 stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <span class="nav-text">Tasks</span>
+                    <span class="nav-text">Users</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="task.html">Tasks</a></li>
-                    <li><a href="task-summary.html">Task Summary</a></li>
+                    <li><a href="{{ route('admin.createusers') }}">Create</a></li>
+                    <li><a href="{{ route('admin.viewUsers') }}">List</a></li>
                 </ul>
             </li>
 

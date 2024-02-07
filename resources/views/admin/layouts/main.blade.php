@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from w3crm.dexignzone.com/xhtml/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Feb 2024 10:47:30 GMT -->
 @include('admin.layouts.head')
 
 <body data-typography="poppins" data-theme-version="light" data-layout="vertical" data-nav-headerbg="black"
@@ -98,6 +97,6 @@
 
 </body>
 
-<!-- Mirrored from w3crm.dexignzone.com/xhtml/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Feb 2024 10:48:31 GMT -->
+
 
 </html>
